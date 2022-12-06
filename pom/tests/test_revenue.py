@@ -5,9 +5,7 @@ from selenium import webdriver
 from pom.pages.home_page import HomePage
 
 
-class BaseTest(unittest.TestCase):
-    def setUp(self) -> None:  # implementam setup
-        self.driver = webdriver.Chrome()
+
 
 
 class TestRevenue(BaseTest):
