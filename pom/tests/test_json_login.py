@@ -10,7 +10,6 @@ class TestJsonLogin(BaseTest):
         self.menu = MenuPage(self.driver)
         self.login = LoginPage(self.driver)
 
-
     def test_json_login_data(self):
         self.menu.click_on_pages()
         time.sleep(2)
