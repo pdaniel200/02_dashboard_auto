@@ -26,6 +26,9 @@ class TestLogin(BaseTest):
         self.login.login()
 
 
+
+
+
 #todo de introdus la fiecare test si cate un assert,
 #todo 10 scenarii de a testa login-ul
 #todo de creat o functie care citeste dintr-un fisier JSON datele de login

@@ -3,9 +3,7 @@ import unittest
 from selenium import webdriver
 
 from pom.pages.home_page import HomePage
-
-
-
+from pom.tests.base_test import BaseTest
 
 
 class TestRevenue(BaseTest):
